@@ -15,6 +15,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+[Slides used for the workshop](https://docs.google.com/presentation/d/1KOc8YMVx19MN4dGs9fBcoWWFou-0OayRfzbVB3vcCbE/edit#slide=id.g21122e77069_0_128).
+
 ## Learn More
 
 To learn more about Ceramic please visit the following links
