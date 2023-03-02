@@ -10,6 +10,7 @@ Due to the nature of the Ceramic Daemon certain files must be updated to work wi
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
 ```
 
