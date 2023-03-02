@@ -17,19 +17,19 @@ export const Sidebar = ({name, username, id}: SidebarProps) => {
             src={ceramicLogo}
           />
         </div>
-        <Link href = "/">
-          <a>
-            <FaHome /> Home
-          </a>
-        </Link>
         <Link href = {`/profile`}>
           <a>
-            <FaUser /> Profile
+            <FaUser /> 1. Profile
+          </a>
+        </Link>
+        <Link href = "/">
+          <a>
+            <FaHome /> 2. Post
           </a>
         </Link>
         <Link href = "/explore">
           <a>
-            <FaHashtag /> Explore
+            <FaHashtag /> 3. Explore
           </a>
         </Link>
       </div>

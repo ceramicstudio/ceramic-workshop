@@ -104,7 +104,7 @@ export const Userform = () => {
               />
             </div>
             <div className="">
-              <label>Username</label>
+              <label>Username (at least 6 characters) </label>
               <input
                 type="text"
                 defaultValue={profile?.username || ''}
