@@ -34,18 +34,20 @@ const ExplorePage: NextPage = () => {
     `)
     const posts: PostProps[] = []
     res.data.postsIndex.edges.map(post => {
-      posts.push({
-        author: {
-          id: post.node.profile.id,
-          name: post.node.profile.name,
-          username: post.node.profile.username
-        },
-        post: {
-          body: post.node.body,
-          created: post.node.created,
-          id: post.node.id
-        }
-      })
+      if (post.node) {
+        posts.push({
+          author: {
+            id: post.node.profile.id,
+            name: post.node.profile.name,
+            username: post.node.profile.username
+          },
+          post: {
+            body: post.node.body,
+            created: post.node.created,
+            id: post.node.id
+          }
+        })
+      }
     })
     posts.sort((a,b)=> (new Date(b.created) - new Date(a.created)))
     setPosts(posts)
