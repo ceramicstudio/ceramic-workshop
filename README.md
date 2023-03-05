@@ -1,22 +1,14 @@
-# EthDenver 2023 Demo instructions
-Due to the nature of the Ceramic Daemon certain files must be updated to work with your local machine. Please follow the following directions carefully to ensure functionality.
+# EthDenver 2023 workshop
+
+This repository contains a simple application used during the Ceramic workshop at EthDenver 2023. You can also find the [slides used for the workshop](https://docs.google.com/presentation/d/1KOc8YMVx19MN4dGs9fBcoWWFou-0OayRfzbVB3vcCbE/edit#slide=id.g21122e77069_0_128). We will not be maintaining this repository beyond the workshop. 
+
+## Setting up
+
 1. Clone the repository.
-2. You must run `npm i`
-3. You must start the server with `npm run dev` once. You may continue to use this command if you'd like however it will close all Ceramic connections at the first error. It is recommended that once your node is configured to index the required models that you run `npm run ceramic` & `npm run nextDev` separately to avoid this eager quitting.
-4. Enjoy this demo application! 
+2. Install the dependencies: `npm i`
+3. Start the applications: `npm run dev`
+4. Open the application at `https://localhost:3000`
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-[Slides used for the workshop](https://docs.google.com/presentation/d/1KOc8YMVx19MN4dGs9fBcoWWFou-0OayRfzbVB3vcCbE/edit#slide=id.g21122e77069_0_128).
 
 ## Learn More
 
