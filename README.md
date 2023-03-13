@@ -7,7 +7,7 @@ This repository contains a simple application used during the Ceramic workshop a
 1. Clone the repository.
 2. Install the dependencies: `npm i`
 3. Start the applications: `npm run dev`
-4. Open the application at `https://localhost:3000`
+4. Open the application at `http://localhost:3000`
 
 
 ## Learn More
