@@ -7,11 +7,11 @@
   "ipfs": { "mode": "bundled" },
   "logger": { "log-level": 2, "log-to-files": false },
   "metrics": { "metrics-exporter-enabled": false, "metrics-port": 9090 },
-  "network": { "name": "inmemory" },
+  "network": { "name": "testnet-clay" },
   "node": {},
   "state-store": { "mode": "fs", "local-directory": ".ceramic/statestore/" },
   "indexing": {
-    "db": "sqlite:.ceramic/indexing-inmemory.sqlite",
+    "db": "sqlite:.ceramic/indexing.sqlite",
     "allow-queries-before-historical-sync": true,
     "models": [
       "kjzl6hvfrbw6c57p6t99krxnhqbxb24suuvxfhq1hnqujfecq0fap356ai7sjk9",
