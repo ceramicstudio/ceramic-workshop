@@ -1,6 +1,6 @@
 # Aragon Hackathon 2023 workshop
 
-This repository contains a simple application used during the Ceramic workshop at Aragon Hackathon 2023. You can also find the [slides used for the workshop](https://docs.google.com/presentation/d/1F7Y398B8aj7I_NRegr1VqqCghy8afWgDKPENBWErgiE/edit#slide=id.g22cc2664486_0_215). We will not be maintaining this repository beyond the workshop. 
+This repository contains a simple application used during the Ceramic workshop at EthBoston. You can also find the [slides used for the workshop](https://docs.google.com/presentation/d/1F7Y398B8aj7I_NRegr1VqqCghy8afWgDKPENBWErgiE/edit#slide=id.g22cc2664486_0_215). We will not be maintaining this repository beyond the workshop. 
 
 ## Setting up
 
